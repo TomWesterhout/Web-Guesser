@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
+		<title>Number Guesser</title>
+		<link type="text/css" rel="stylesheet" href="stylesheets/style.css">
 	</head>
 	<body>
-		<p>
-			<%= cheat %>
-		</p>
-		<p>
-			Remaining guesses: <%= remaining_guesses %>
-		</p>
-		<p>
-			<%= message %>
-		</p>
-		<p>
-			<%= announcement %>
-		</p>
-		<form>
-			<input type='text' name='guess'>
-			<input type='submit' value='Guess!'>
-		</form>
+		<div class="container">
+			<section class="game">
+				<h1>Number guesser</h1>
+				<p><%= cheat %></p>
+				<p>Remaining guesses: <%= remaining_guesses %></p>
+				<p><%= message %></p>
+				<p><%= announcement %></p>	
+				<form>
+					<input type="text" name="guess">
+					<input type="submit" value="guess">
+				</form>
+			</section>
+		</div>
 	</body>
 </html>
