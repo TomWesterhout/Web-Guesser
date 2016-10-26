@@ -25,6 +25,9 @@ def proces_tracker(guess)
 	elsif $remaining_guesses == 0
 		reset
 		@announcement = "No more guesses left. A new game has been started."
+		@message = ""
+	else
+		@announcement = ""
 	end
 end
 
@@ -36,6 +39,8 @@ end
 def cheat_mode(input)
 	if input
 		"Cheat: #{$random_number}"
+	else
+		""
 	end
 end
 

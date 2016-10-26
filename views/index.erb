@@ -1,9 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta name="viewport" content="width=device-width" initial-scale="1.0">
 		<title>Number Guesser</title>
+		<meta name="viewport" content="width=device-width" initial-scale="1.0">
 		<link type="text/css" rel="stylesheet" href="stylesheets/style.css">
+		<link type="text/css" rel="stylesheet" href="stylesheets/css_reset">
+		<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
 	</head>
 	<body>
 		<div class="container">
@@ -12,12 +14,17 @@
 				<p><%= cheat %></p>
 				<p>Remaining guesses: <%= remaining_guesses %></p>
 				<p><%= message %></p>
-				<p><%= announcement %></p>	
+				<p><%= announcement %></p>
 				<form>
 					<input type="text" name="guess">
 					<input type="submit" value="guess">
 				</form>
 			</section>
 		</div>
+		<footer>
+			<a href="https://github.com/Westw00d">Github | </a>
+			<a href="http://www.theodinproject.com/courses/ruby-onrails/lessons/sinatra-basics">The Odin Project | </a>
+			<a href="http://tutorials.jumpstartlab.com/projectsweb_guesser.html#webguesser">Jumpstart Tutorials</a>
+		</footer>
 	</body>
 </html>
