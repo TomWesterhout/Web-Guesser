@@ -1,7 +1,7 @@
 # Web-Guesser
 The Odin Project - Ruby on Rails - Sinatra - Sinatra Basics - Webguesser
 
-http://shrouded-waters-66767.herokuapp.com/
+http://web-guesser-170388.herokuapp.com/
 
 First contact with the Sinatra framework through The Odin Project: http://www.theodinproject.com/courses/ruby-on-rails/lessons/sinatra-basics
 The project aimed at getting familiar with setting up routes and organizing views.
